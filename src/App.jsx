@@ -4,9 +4,9 @@ import './App.css'
 function App() {
 
   function counterinitilization  (){
-    return  5;
+    return  0;
   }
-  const  [counter, SetCounter] = useState(counterinitilization());
+  const  [counter, SetCounter] = useState(counterinitilization()); // useState(0)
 
   function addValue(){
     SetCounter(counter + 1);
